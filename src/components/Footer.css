@@ -1,0 +1,43 @@
+.footerRoot{
+    padding:20px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width:100vw;
+    background-color: #2A9FDE;
+    color:  #FFF
+}
+
+.footerHook{
+    font-family: FuturaPTDemi;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin:20px
+}
+
+.socialMediaBubble{
+    width:60px;
+    height:60px;
+    padding: 10px;
+    margin:0 25px;
+    border-radius: 60px;
+    background-color: #FFF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerSNS {
+    margin:auto;
+    width:50px;
+    height:50px;
+}
+
+.socialMediaIcons{
+    display:flex;
+    justify-content: center;
+    
+}
+.copyright{
+    font-size: 20px;
+}
