@@ -1,0 +1,34 @@
+.navigationBarRoot{
+	height:100px;
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2A9FDE;
+    color:white;
+}
+
+.navigationHome{
+    display: flex;
+    align-items: center;
+}
+.homeLink{
+    margin:20px;
+    font-family: FuturaPTDemi;
+    font-size:50px;
+}
+
+.navigationLinks{
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    font-family: FuturaPTDemi;
+    font-size:25px;
+    margin:25px;
+    text-decoration: underline;
+}
+.link:hover, .homeLink:hover{
+    color:#31618F;
+    cursor: pointer; 
+}
