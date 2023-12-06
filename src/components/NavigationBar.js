@@ -5,9 +5,9 @@ const NavigationBar = () =>{
     const location = useLocation();
     const navigate = useNavigate();
     return(
-        <div className="navigationBarRoot">
+        <>
             {location.pathname !== '/' ? (
-                <>
+                <div className="navigationBarRoot">
                     <div className="navigationHome">
                         <p className="homeLink" onClick={()=>navigate('/')}>ELLIE LY</p>
                     </div>
@@ -17,10 +17,9 @@ const NavigationBar = () =>{
                         <p className="link" onClick={()=>navigate('/story')}>STORY</p>
                         <p className="link" onClick={()=>navigate('/about')}>ABOUT</p>
                     </div>
-                </>
+                </div>
             ):('')}
-            
-        </div>
+        </>
     )
 }
 

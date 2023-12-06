@@ -22,7 +22,9 @@ const LandingPage = () =>{
                     <div className="button" onClick={()=>navigate('/about')}>ABOUT ME</div>
                 </div>
             </div>
-            
+            <div>
+                
+            </div>
         </div>
     )
 }
